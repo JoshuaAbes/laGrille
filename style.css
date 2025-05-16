@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#theme-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.theme-button {
+  padding: 1rem;
+  background-color: #ddd;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+}
+
+#image-viewer {
+  margin-top: 2rem;
+}
+
+#current-image {
+  max-width: 80%;
+  max-height: 80vh;
+}
+
+.hidden {
+  display: none;
+}
